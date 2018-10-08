@@ -1,1 +1,5 @@
 # Google-Play-Store
+
+In this project, I was able to obtain two [datasets](https://www.kaggle.com/lava18/google-play-store-apps) from Kaggle with information about applications that were a part of the Google Play Store. Using the features provided, I sought to design a Machine Learning model using XGBoost that could predict the user rating of the applications. Using the XGBoost model, I calculated for Root Mean Square Error (RMSE) to measure my model's perfomance.
+
+The baseline score I needed to beat was 0.4835, the standard deviation of Rating as this value meant that I would predict every single value to be the mean. Using my XGBoost model, I was able to obtain a RMSE of 0.4505 which was good considering the limited nature of the data. The features in the data that would have been the best for the model either had to many missing data or too many categories.
